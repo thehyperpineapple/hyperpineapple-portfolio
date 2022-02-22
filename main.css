@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 * {
     font-family: 'Rubik', sans-serif; 
-    color: lightblue;
+    color: #dde5f6;
 }
 body{
     background-image: url(Images/bg.jpg);  
@@ -10,7 +10,8 @@ body{
 }
 .main-title{
     text-align:center;
-    font-size: 5em;
+    font-size: 4.5em;
+    color: #adc0e9;
 }
 .footer-div{
     padding: 0.25em;
@@ -42,6 +43,7 @@ body{
     font-size: 50px;
     margin-bottom: 100px;
     text-align: center;
+    color: #adc0e9;
 }
 .project-all{
     display: flex;
@@ -88,17 +90,19 @@ body{
 }
 
 .main-desc{
-    margin-left: 150px;
+    margin-top: 75px;
+    margin-left: 250px;
     margin-right: 500px;
-    font-size: 25px;
+    margin-bottom: 75px;
+    font-size: 20px;
 }
 .lang-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: -100px;
-    margin-bottom: -100px;
-    width: 25%;
+    margin-bottom: -150px;
+    width: 50%;
 }
 
 .face {
